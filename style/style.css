@@ -1,0 +1,358 @@
+/*Declaraciones generales*/
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+ul{
+    list-style-type: none;
+}
+a{
+text-decoration: none;
+}
+
+h1{
+    color: hotpink;
+    font-size: 2rem;
+    background: linear-gradient(pink,antiquewhite);
+}
+h2{
+    color:hotpink;
+    font-size: 1,5rem;
+    background: linear-gradient(pink,antiquewhite);
+}
+h3{
+    color: dodgerblue;
+    font-size:"1,5rem";
+    background-color: aliceblue;
+}
+p{
+    font-style: italic;
+    font-size:"1rem";
+    background-color: rgba(80, 82, 82, 0.137);
+}
+
+.caja1{
+    background-color: cornsilk;
+    text-align: center;
+    font-size: large;
+    border-color: antiquewhite;
+    border-width: 3px;
+    border-style: solid;
+    color: grey;
+}
+.caja2{
+    background-color: cornsilk;
+    text-align: center;
+    font-size: large;
+    width:1330px;
+    height:800px;
+    border-color: antiquewhite;
+    border-width:"3px";
+    border-style: solid
+
+}
+
+/* Galeria */
+.caja3{
+    background-color: cornsilk;
+    text-align: center;
+    font-size: large;
+    width:"1330px";
+    height:"1330px";
+    border-color: antiquewhite;
+    border-width:"3px";
+    border-style: solid
+}
+.caja4{
+    background-color: cornsilk;
+    text-align: center;
+    font-size: large;
+    width:"1330px";
+    height:"1950px";
+    border-color: antiquewhite;
+    border-width:"3px";
+    border-style: solid
+}
+.caja5{
+    background-color: cornsilk;
+    text-align: center;
+    font-size: large;
+    width:"1330px";
+    height:"1450px";
+    border-color: antiquewhite;
+    border-width:"3px";
+    border-style: solid
+}
+.caja6{
+    background-color: cornsilk;
+    text-align: center;
+    font-size: large;
+    width:"1330px";
+    height:"950px";
+    border-color: antiquewhite;
+    border-width:"3px";
+    border-style: solid
+}
+.caja7{
+    background-color: cornsilk;
+    text-align: center;
+    font-size: large;
+    border-color: antiquewhite;
+    border-width:3px;
+    border-style: solid
+}
+.caja8{
+    background-color: cornsilk;
+    text-align: center;
+    font-size: large;
+    border-color: antiquewhite;
+    border-width:3px;
+    border-style: solid
+}
+.caja9{
+    background-color: cornsilk;
+    text-align: center;
+    font-size: large;
+    border-color: antiquewhite;
+    border-style: solid;
+    width: 1200px;
+
+}
+
+/* Header */
+
+header{
+    text-decoration: none;
+    background-color: antiquewhite;
+    color: hotpink;
+}
+
+.align{
+    text-align: center;
+    padding: 15px;
+}
+
+.menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style-type:none;
+    padding: 20px;
+}
+div{
+    padding:30px;
+    margin:70px;
+}
+.equipaje__img{
+width: 50%;  
+}
+
+.docs__img{
+width: 30%;
+}
+
+.section1{
+    text-align: center;
+    font-size: large;
+    width:"700px";
+    height:"300px";
+    background-color:none;
+    list-style-type: none;
+}
+
+body{
+    display: grid;
+    background-color:antiquewhite;
+    }
+
+.section3{
+    text-align: center;
+    font-size: large;
+    width:"700px";
+    height:"300px";
+    border-width: 3px;
+    display: grid;
+}
+
+.disneysect__img{
+width: 100%;
+}
+.parissect__img{
+width: 100%;
+}
+
+.nysect__img{
+width:100%;
+}
+
+footer{
+    background-color: antiquewhite;
+    padding: 20px;
+    justify-content: justify;
+    text-align: center; 
+}
+    
+    .viajes__disney{
+    text-align: left;
+    font-size: large;
+    width:"700px";
+    height:"300px";
+    border-width: 3px;
+    background-color:none;
+    display: grid;
+    grid-template-columns:1fr 1fr;
+    }
+
+.viajes__ny{
+    text-align: left;
+    font-size: large;
+    width:"700px";
+    height:"300px";
+    border-width: 3px;
+    background-color:none;
+    display: grid;
+    grid-template-columns:1fr 1fr;
+}
+
+.viajes__paris{
+    text-align: left;
+    font-size: large;
+    width:"700px";
+    height:"300px";
+    border-width: 3px;
+    background-color:none;
+    display: grid;
+    grid-template-columns:1fr 1fr;
+}
+.viajes__islasgalapagos{
+    text-align: left;
+    font-size: large;
+    width:"700px";
+    height:"300px";
+    border-width: 3px;
+    background-color:none;
+    display: grid;
+    grid-template-columns:1fr 1fr;
+}
+.viajes__liubliana{
+    text-align: left;
+    font-size: large;
+    width:"700px";
+    height:"300px";
+    border-width: 3px;
+    background-color:none;
+    display: grid;
+    grid-template-columns:1fr 1fr;
+}
+.viajes__liubliana{
+    text-align: left;
+    font-size: large;
+    width:"700px";
+    height:"300px";
+    border-width: 3px;
+    background-color:none;
+    display: grid;
+    grid-template-columns:1fr 1fr;
+}
+.viajes__bodrum{
+    text-align: left;
+    font-size: large;
+    width:"700px";
+    height:"300px";
+    border-width: 3px;
+    background-color:none;
+    display: grid;
+    grid-template-columns:1fr 1fr;
+}
+
+/*banner*/
+
+.sectionbanner{
+    background-image: url('../resources/sunset.jpg');
+    text-align: center;
+    font-size: large;
+    width:"600px";
+    height:"600px";
+    border-color: antiquewhite;
+    border-width: 3px;
+    border-style: solid
+}
+.banner_div{
+    height: 85vh;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+}
+.banner_text{
+    color:rgb(255, 255, 255);
+    text-align: center;
+    background-color: rgba(235, 162, 190, 0.425);
+    padding: 15px;
+    border: 2px solid bisque;
+    
+}
+
+.section2{
+    text-align: center;
+    font-size: large;
+    width:"700px";
+    height:"300px";
+    border-width: 3px;
+    display: grid;
+}
+
+@media (max-width: 480px) {
+    header{
+        display: grid;
+        font-size: medium;
+    }
+    .section1{
+        font-size:x-large;
+    }
+    .section2{
+        display: grid;    
+    }
+    main{
+        font-size: x-large ;
+    }
+    .banner_text{
+        width: 100%;
+    }
+    .caja1{
+        display: grid;
+        font-size: large;
+        grid-template-columns: 1fr 1fr;
+    }
+}
+@media (min-width:700px){
+    .section2{
+        display: grid;
+        grid-template-columns: 50% 50%;
+        font-size: large;
+    }
+    .section3{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        font-size: large;
+    }
+}
+
+@media (max-width:550px){
+    .menu{
+        display: grid;
+        grid-template-columns: 50% 50%;
+    }
+}
+.menu:hover{
+    background-color: rgba(255, 105, 180, 0.39);
+    transition-duration: 2s;
+}
+
+.caja1:hover{
+    background-color: rgba(255, 105, 180, 0.39);
+    transition-duration: 2s;
+    color:white;
+}
