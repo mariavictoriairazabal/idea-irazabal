@@ -384,3 +384,24 @@ footer{
 .shangai_img{
     width: 90%;
 }
+
+th:hover{
+    background-color: rgba(255, 105, 180, 0.39);
+    transition-duration: 2s;
+}
+
+td:hover{
+    background-color: rgba(255, 105, 180, 0.39);
+    transition-duration: 2s;
+}
+
+
+.menu:hover{
+    background-color: rgba(255, 105, 180, 0.39);
+    transition-duration: 2s;
+}
+
+fieldset{
+    background-image: url(../resources/sunset.jpg);
+    color: white;
+}
