@@ -1,4 +1,3 @@
-/*Declaraciones generales*/
 * {
   margin: 0;
   padding: 0;
@@ -6,15 +5,15 @@
 }
 
 h1 {
-  color: rgba(250, 92, 171, 0.904);
-  font-family: Monserrat, sans-serif;
+  color: #f754a5;
+  font-family: "Franklin Gothic Medium";
   background: linear-gradient(pink, antiquewhite);
   font-size: 2rem;
 }
 
 h2 {
-  color: rgba(250, 92, 171, 0.904);
-  font-family: Monserrat, sans-serif;
+  color: #f754a5;
+  font-family: "Franklin Gothic Medium";
   background: linear-gradient(pink, antiquewhite);
   font-size: 2rem;
 }
@@ -28,12 +27,12 @@ a {
 }
 
 h3 {
-  color: dodgerblue;
+  color: #1e90ff;
   background-color: aliceblue;
 }
 
 p {
-  font-family: Monserrat, sans-serif;
+  font-family: "Franklin Gothic Medium";
   background-color: rgba(80, 82, 82, 0.137);
 }
 
@@ -47,171 +46,19 @@ body {
   background-color: antiquewhite;
 }
 
-/* fin declaraciones generales*/
-/* Header */
-header {
-  text-decoration: none;
-  background-color: antiquewhite;
-  color: hotpink;
-}
-
 .align {
   text-align: center;
   padding: 15px;
 }
 
-.menu {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  list-style-type: none;
-  padding: 20px;
+p:hover {
+  background-color: rgba(255, 105, 180, 0.39);
+  transition-duration: 2s;
 }
 
-/*fin del header*/
-/*main*/
-.equipaje__img {
-  width: 100%;
-  align-items: center;
-}
-
-.docs__img {
-  width: 60%;
-  align-items: center;
-}
-
-.section1 {
-  text-align: center;
-  font-size: large;
-  background-color: none;
-  list-style-type: none;
-}
-
-.section3 {
-  text-align: center;
-  font-size: large;
-  border-width: 3px;
-  display: grid;
-}
-
-.disneysect__img {
-  width: 100%;
-}
-
-.parissect__img {
-  width: 100%;
-}
-
-.nysect__img {
-  width: 100%;
-}
-
-/*fin del main*/
-/*footer*/
-footer {
-  background-color: antiquewhite;
-  padding: 20px;
-  justify-content: justify;
-  text-align: center;
-}
-
-/*fin del footer*/
-/*page viajes*/
-.viajes__disney {
-  text-align: left;
-  font-size: large;
-  border-width: 3px;
-  background-color: none;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-}
-
-.viajes__ny {
-  text-align: left;
-  font-size: large;
-  border-width: 3px;
-  background-color: none;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-}
-
-.viajes__paris {
-  text-align: left;
-  font-size: large;
-  border-width: 3px;
-  background-color: none;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-}
-
-.viajes__islasgalapagos {
-  text-align: left;
-  font-size: large;
-  border-width: 3px;
-  background-color: none;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-}
-
-.viajes__liubliana {
-  text-align: left;
-  font-size: large;
-  border-width: 3px;
-  background-color: none;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-}
-
-.viajes__liubliana {
-  text-align: left;
-  font-size: large;
-  border-width: 3px;
-  background-color: none;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-}
-
-.viajes__bodrum {
-  text-align: left;
-  font-size: large;
-  border-width: 3px;
-  background-color: none;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-}
-
-/*fin page viajes*/
-/*banner*/
-.sectionbanner {
-  background-image: url("../resources/sunset.jpg");
-  text-align: center;
-  font-size: large;
-  border-color: antiquewhite;
-  border-width: 3px;
-  border-style: solid;
-}
-
-.banner_div {
-  height: 85vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.banner_text {
-  color: rgb(255, 255, 255);
-  text-align: center;
-  background-color: rgba(235, 162, 190, 0.425);
-  padding: 15px;
-  border: 2px solid bisque;
-}
-
-/*fin section banner*/
-.section2 {
-  text-align: center;
-  font-size: large;
-  border-width: 3px;
-  display: grid;
+.menu:hover {
+  background-color: rgba(255, 105, 180, 0.39);
+  transition-duration: 2s;
 }
 
 @media (max-width: 480px) {
@@ -255,11 +102,106 @@ footer {
     grid-template-columns: 50% 50%;
   }
 }
-.menu:hover {
-  background-color: rgba(255, 105, 180, 0.39);
-  transition-duration: 2s;
+/* Header */
+header {
+  text-decoration: none;
+  background-color: antiquewhite;
+  color: hotpink;
 }
 
+.menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  list-style-type: none;
+  padding: 20px;
+}
+
+/*fin del header*/
+/*main*/
+.equipaje__img {
+  width: 100%;
+  align-items: center;
+}
+
+.docs__img {
+  width: 60%;
+  align-items: center;
+}
+
+.section1 {
+  font-size: large;
+  text-align: center;
+  background-color: none;
+  list-style-type: none;
+}
+
+.section3 {
+  font-size: large;
+  text-align: center;
+  border-width: 3px;
+  display: grid;
+}
+
+.disneysect__img {
+  width: 100%;
+}
+
+.parissect__img {
+  width: 100%;
+}
+
+.nysect__img {
+  width: 100%;
+}
+
+/*fin del main*/
+/*footer*/
+footer {
+  background-color: antiquewhite;
+  padding: 20px;
+  justify-content: justify;
+  text-align: center;
+}
+
+/*fin del footer*/
+/*banner*/
+.banner {
+  background-image: url("../resources/sunset.jpg");
+  text-align: center;
+  font-size: large;
+  border-color: antiquewhite;
+  border-width: 3px;
+  border-style: solid;
+}
+
+.banner_text {
+  color: rgb(255, 255, 255);
+  text-align: center;
+  background-color: rgba(235, 162, 190, 0.425);
+  padding: 15px;
+  border: 2px solid bisque;
+}
+
+/*fin section banner*/
+.section2 {
+  font-size: large;
+  text-align: center;
+  border-width: 3px;
+  display: grid;
+}
+
+/*page viajes*/
+.viajes__disney, .viajes__bodrum, .viajes__liubliana, .viajes__islasgalapagos, .viajes__paris, .viajes__ny {
+  text-align: left;
+  font-size: large;
+  border-width: 3px;
+  background-color: none;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+/*fin page viajes*/
 .disney_img {
   width: 80%;
 }
@@ -298,11 +240,6 @@ th:hover {
 }
 
 td:hover {
-  background-color: rgba(255, 105, 180, 0.39);
-  transition-duration: 2s;
-}
-
-.menu:hover {
   background-color: rgba(255, 105, 180, 0.39);
   transition-duration: 2s;
 }
