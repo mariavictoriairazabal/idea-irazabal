@@ -109,14 +109,6 @@ header {
   color: hotpink;
 }
 
-.menu {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  list-style-type: none;
-  padding: 20px;
-}
-
 /*fin del header*/
 /*main*/
 .equipaje__img {
@@ -167,7 +159,7 @@ footer {
 /*fin del footer*/
 /*banner*/
 .banner {
-  background-image: url("../resources/sunset.jpg");
+  background-image: url("../resources/bannersunset.jpg");
   text-align: center;
   font-size: large;
   border-color: antiquewhite;
@@ -242,11 +234,6 @@ th:hover {
 td:hover {
   background-color: rgba(255, 105, 180, 0.39);
   transition-duration: 2s;
-}
-
-fieldset {
-  background-image: url(../resources/sunset.jpg);
-  color: white;
 }
 
 /*# sourceMappingURL=style.css.map */

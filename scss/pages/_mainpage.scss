@@ -9,15 +9,6 @@ header{
     background-color: antiquewhite;
     color: hotpink;
 }
-
-.menu{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    list-style-type:none;
-    padding: 20px;
-}
-
 /*fin del header*/
 /*main*/
 
@@ -83,10 +74,20 @@ footer{
     border: 2px solid bisque;
     
 }
+
+
 /*fin section banner*/
 
 .section2{
     @include align-font;
     border-width: 3px;
     display: grid;
+}
+
+.menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style-type:none;
+    padding: 20px;
 }
