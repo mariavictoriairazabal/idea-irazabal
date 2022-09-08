@@ -6,7 +6,7 @@
 
 h1 {
   color: #f754a5;
-  font-family: "Franklin Gothic Medium";
+  font-family: "Noto Sans Buhid", sans-serif;
   background: linear-gradient(pink, antiquewhite);
   font-size: 2rem;
 }
@@ -159,7 +159,7 @@ footer {
 /*fin del footer*/
 /*banner*/
 .banner {
-  background-image: url("../resources/bannersunset.jpg");
+  background-image: url("../resources/bannersunset2.jpg");
   text-align: center;
   font-size: large;
   border-color: antiquewhite;
