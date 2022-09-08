@@ -5,19 +5,20 @@
 }
 
 $color-principal: #f754a5;
-$tipo-principal: 'Franklin Gothic Medium';
+$tipo-principal:'Raleway', sans-serif;
+
 
 
 h1{
-    color: $color-principal;
-    font-family: $tipo-principal;
+    font-family: 'PT Serif', serif;
     background: linear-gradient(pink,antiquewhite);
     font-size:2rem;
+    color: $color-principal;
 }
 
 h2{
     color: $color-principal;
-    font-family: $tipo-principal;
+    font-family: 'PT Serif', serif;
     background: linear-gradient(pink,antiquewhite);
     font-size:2rem;
 }
@@ -32,10 +33,12 @@ text-decoration: none;
 h3{
     color: #1e90ff;
     background-color: aliceblue;
+    font-family: 'PT Serif', serif;
 }
 p{
-    font-family: 'Franklin Gothic Medium';
+    font-family: 'Raleway', sans-serif;
     background-color: rgba(80, 82, 82, 0.137);
+    color: black;
 }
 
 div{
@@ -105,9 +108,3 @@ p:hover{
         grid-template-columns: 50% 50%;
     }
 }
-$redes:(
-    twitter: #1e90ff,
-    facebook: #034281,
-    instagram: #ce4611,
-);
-
