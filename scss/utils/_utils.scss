@@ -4,48 +4,49 @@
     box-sizing: border-box;
 }
 
-$color-principal: #f754a5;
+$color-principal:#f587be;
 $tipo-principal:'Raleway', sans-serif;
 
-
-
 h1{
-    font-family: 'PT Serif', serif;
-    background: linear-gradient(pink,antiquewhite);
-    font-size:2rem;
-    color: $color-principal;
+    font-family: 'Special Elite', cursive;
+    background: $color-principal;
+    font-size:30px;
+    color:white;
 }
 
 h2{
-    color: $color-principal;
-    font-family: 'PT Serif', serif;
-    background: linear-gradient(pink,antiquewhite);
-    font-size:2rem;
+    color: white;
+    font-family: 'Special Elite', cursive;
+    background: $color-principal;
+    font-size:30px;
 }
 
 ul{
     list-style-type: none;
+    font-family: 'Poppins', sans-serif;
+    }
+
+li{
+    font-family: 'Poppins', sans-serif;
 }
 a{
 text-decoration: none;
 }
 
 h3{
-    color: #1e90ff;
+    color: #51a2f3d3;
     background-color: aliceblue;
-    font-family: 'PT Serif', serif;
+    font-family: 'Special Elite', cursive;
 }
 p{
-    font-family: 'PT Serif', serif;
+    font-family: 'Poppins', sans-serif;
     background-color: rgba(80, 82, 82, 0.137);
     color: black;
 }
-
 div{
-    padding:30px;
-    margin:70px;
+    padding: 15px;
+    margin: 5px;
 }
-
 body{
     display: grid;
     background-color:antiquewhite;

@@ -5,21 +5,26 @@
 }
 
 h1 {
-  font-family: "PT Serif", serif;
-  background: linear-gradient(pink, antiquewhite);
-  font-size: 2rem;
-  color: #f754a5;
+  font-family: "Special Elite", cursive;
+  background: #f587be;
+  font-size: 30px;
+  color: white;
 }
 
 h2 {
-  color: #f754a5;
-  font-family: "PT Serif", serif;
-  background: linear-gradient(pink, antiquewhite);
-  font-size: 2rem;
+  color: white;
+  font-family: "Special Elite", cursive;
+  background: #f587be;
+  font-size: 30px;
 }
 
 ul {
   list-style-type: none;
+  font-family: "Poppins", sans-serif;
+}
+
+li {
+  font-family: "Poppins", sans-serif;
 }
 
 a {
@@ -27,20 +32,20 @@ a {
 }
 
 h3 {
-  color: #1e90ff;
+  color: rgba(81, 162, 243, 0.8274509804);
   background-color: aliceblue;
-  font-family: "PT Serif", serif;
+  font-family: "Special Elite", cursive;
 }
 
 p {
-  font-family: "PT Serif", serif;
+  font-family: "Poppins", sans-serif;
   background-color: rgba(80, 82, 82, 0.137);
   color: black;
 }
 
 div {
-  padding: 0px;
-  margin: 0px;
+  padding: 15px;
+  margin: 5px;
 }
 
 body {
@@ -161,7 +166,7 @@ footer {
 /*fin del footer*/
 /*banner*/
 .banner {
-  background-image: url("/resources/bannersunset2.jpg");
+  background-image: url("/resources/bannerfinal.jpg");
   text-align: center;
   font-size: large;
   border-color: antiquewhite;
