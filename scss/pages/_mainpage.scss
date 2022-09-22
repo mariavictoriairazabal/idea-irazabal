@@ -63,7 +63,7 @@ footer{
     border-color: antiquewhite;
     border-width: 3px;
     border-style: solid;
-    background-image: url("/resources/bannersunset2.jpg");
+    background-image: url("/resources/bannerfinal.jpg");
 }
 
 .banner_text{
@@ -80,4 +80,19 @@ footer{
     @include align-font;
     border-width: 3px;
     display: grid;
+}
+
+.disneysect__img:hover{
+    transition-duration: 2s;
+    transform: scale(2);
+}
+
+.parissect__img:hover{
+    transition-duration: 2s;
+    transform: scale(2);
+}
+
+.nysect__img:hover{
+    transition-duration: 2s;
+    transform: scale(2);
 }

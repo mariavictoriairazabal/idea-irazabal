@@ -171,7 +171,7 @@ footer {
   border-color: antiquewhite;
   border-width: 3px;
   border-style: solid;
-  background-image: url("/resources/bannersunset2.jpg");
+  background-image: url("/resources/bannerfinal.jpg");
 }
 
 .banner_text {
@@ -188,6 +188,21 @@ footer {
   text-align: center;
   border-width: 3px;
   display: grid;
+}
+
+.disneysect__img:hover {
+  transition-duration: 2s;
+  transform: scale(2);
+}
+
+.parissect__img:hover {
+  transition-duration: 2s;
+  transform: scale(2);
+}
+
+.nysect__img:hover {
+  transition-duration: 2s;
+  transform: scale(2);
 }
 
 /*page viajes*/
@@ -232,6 +247,46 @@ footer {
 
 .shangai_img {
   width: 90%;
+}
+
+.disney_img:hover {
+  transition-duration: 2s;
+  transform: scale(2);
+}
+
+.ny_img:hover {
+  transition-duration: 2s;
+  transform: scale(2);
+}
+
+.paris_img:hover {
+  transition-duration: 2s;
+  transform: scale(2);
+}
+
+.londres_img:hover {
+  transition-duration: 2s;
+  transform: scale(2);
+}
+
+.shangai_img:hover {
+  transition-duration: 2s;
+  transform: scale(2);
+}
+
+.liubliana_img:hover {
+  transition-duration: 2s;
+  transform: scale(2);
+}
+
+.islas_img:hover {
+  transition-duration: 2s;
+  transform: scale(2);
+}
+
+.bodrum_img:hover {
+  transition-duration: 2s;
+  transform: scale(1, 5);
 }
 
 th:hover {
