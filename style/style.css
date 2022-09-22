@@ -177,7 +177,7 @@ footer {
 .banner_text {
   color: rgb(255, 255, 255);
   text-align: center;
-  background-color: rgba(235, 162, 190, 0.425);
+  background-color: rgba(235, 162, 190, 0.726);
   padding: 15px;
   border: 2px solid bisque;
 }
@@ -286,7 +286,7 @@ footer {
 
 .bodrum_img:hover {
   transition-duration: 2s;
-  transform: scale(1, 5);
+  transform: scale(2);
 }
 
 th:hover {
